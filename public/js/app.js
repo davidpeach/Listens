@@ -17839,15 +17839,15 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [{
   name: 'album',
-  path: '/albums',
+  path: '/listens/albums/',
   component: __webpack_require__(/*! ./views/Albums.vue */ "./resources/js/views/Albums.vue")["default"]
 }, {
   name: 'artist',
-  path: '/artists/:page*',
+  path: '/listens/artists/:page*/',
   component: __webpack_require__(/*! ./views/Artists.vue */ "./resources/js/views/Artists.vue")["default"]
 }, {
   name: 'listen',
-  path: '/listens',
+  path: '/listens/listens/',
   component: __webpack_require__(/*! ./views/Listens.vue */ "./resources/js/views/Listens.vue")["default"]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
