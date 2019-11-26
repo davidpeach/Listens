@@ -39,7 +39,7 @@
                 } else {
                     this.currentPage = this.$route.query.page;
                 }
-                this.loadArtists('/api/artists?page=' + this.currentPage);
+                this.loadArtists(apiDomain + '/api/artists?page=' + this.currentPage);
             },
 
             updatePage(link) {

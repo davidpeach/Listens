@@ -1876,7 +1876,7 @@ __webpack_require__.r(__webpack_exports__);
         this.currentPage = this.$route.query.page;
       }
 
-      this.loadArtists('/api/albums?page=' + this.currentPage);
+      this.loadArtists(apiDomain + '/api/albums?page=' + this.currentPage);
     },
     updatePage: function updatePage(link) {
       var _this = this;
@@ -1956,7 +1956,7 @@ __webpack_require__.r(__webpack_exports__);
         this.currentPage = this.$route.query.page;
       }
 
-      this.loadArtists('/api/artists?page=' + this.currentPage);
+      this.loadArtists(apiDomain + '/api/artists?page=' + this.currentPage);
     },
     updatePage: function updatePage(link) {
       var _this = this;
@@ -18082,8 +18082,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/scrobbles-importer/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/scrobbles-importer/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /var/www/listens/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/listens/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
