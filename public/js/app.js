@@ -17838,20 +17838,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 
 var routes = [{
+  path: '/listens',
+  redirect: {
+    name: 'listen'
+  }
+}, {
   name: 'album',
   path: '/listens/albums/',
-  component: __webpack_require__(/*! ./views/Albums.vue */ "./resources/js/views/Albums.vue")["default"]
+  component: __webpack_require__(/*! ./views/Albums.vue */ "./resources/js/views/Albums.vue")["default"],
+  pathToRegexpOptions: {
+    strict: true
+  }
 }, {
   name: 'artist',
   path: '/listens/artists/:page*/',
-  component: __webpack_require__(/*! ./views/Artists.vue */ "./resources/js/views/Artists.vue")["default"]
+  component: __webpack_require__(/*! ./views/Artists.vue */ "./resources/js/views/Artists.vue")["default"],
+  pathToRegexpOptions: {
+    strict: true
+  }
 }, {
   name: 'listen',
-  path: '/listens/listens/',
-  component: __webpack_require__(/*! ./views/Listens.vue */ "./resources/js/views/Listens.vue")["default"]
+  path: '/listens/',
+  component: __webpack_require__(/*! ./views/Listens.vue */ "./resources/js/views/Listens.vue")["default"],
+  pathToRegexpOptions: {
+    strict: true
+  }
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',
+  strict: true,
   routes: routes
 }));
 
