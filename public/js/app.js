@@ -17865,8 +17865,7 @@ var routes = [{
   }
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
-  mode: 'history',
-  strict: true,
+  //mode: 'history',
   routes: routes
 }));
 

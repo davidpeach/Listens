@@ -26,7 +26,6 @@ let routes = [
 ];
 
 export default new VueRouter({
-    mode: 'history',
-    strict: true,
+    //mode: 'history',
     routes
 });
